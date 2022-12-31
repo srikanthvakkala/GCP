@@ -27,3 +27,6 @@ In the Network field, select the VPC network that contains the subnet you create
 In the Subnet field, select the subnet that the VM will use.
 
 Click the Create button to create and start the VM.
+
+
+

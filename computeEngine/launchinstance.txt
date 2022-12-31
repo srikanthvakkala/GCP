@@ -1,0 +1,32 @@
+In the Google Cloud Console, Select your project and click Continue.
+
+go to the VM instances page. Click Create instance.
+
+Specify a Name for your VM. 
+
+Specify the Region and  Zone for this VM.
+
+Select a Machine configuration for your VM.
+
+In the Boot disk section, click Change to configure your boot disk. Unless you explicitly choose a different boot disk, if the name of the new VM matches the name of an existing persistent disk, then the existing persistent disk automatically attaches to the new VM as the boot disk.
+
+In the Public images tab, choose an operating system and version.
+
+Click Save to confirm your boot disk options.
+
+To permit HTTP or HTTPS traffic to the VM, select Allow HTTP traffic or Allow HTTPS traffic.The Cloud Console adds a network tag to your VM and creates the corresponding ingress firewall rule that allows all incoming traffic on tcp:80 (HTTP) or tcp:443 (HTTPS). The network tag associates the firewall rule with the VM.
+
+Add “drupal“ network tag the drupal VMs and “solr” network tag for solr VMs.
+
+Expand the Management, security, disks, networking, sole tenancy section.
+
+Under Network interfaces in the Networking tab, specify the network details.
+
+In the Network field, select the VPC network that contains the subnet you created.
+
+In the Subnet field, select the subnet that the VM will use.
+
+Click the Create button to create and start the VM.
+
+
+

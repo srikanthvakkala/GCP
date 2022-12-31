@@ -28,7 +28,5 @@ In the Subnet field, select the subnet that the VM will use.
 
 Click the Create button to create and start the VM.
 
-<img width="1440" alt="Screenshot 2022-02-11 at 6 56 49 PM" src="https://user-images.githubusercontent.com/88248254/210127647-9c23223d-c8e0-49ec-97dc-1e78837fcc78.png">
-
 
 

@@ -28,5 +28,6 @@ In the Subnet field, select the subnet that the VM will use.
 
 Click the Create button to create and start the VM.
 
-https://github.com/srikanthvakkala/GCP/blob/computeEngine/computeEngine/pfu2DKA2B6pCba3WMY0bh3lCX5Mq9uIDHW9myl9S8oD8q5uECegFbTjRXzMSRsxXTAlTA7myRep-2vrjIcafpzcHN9P1LgzZSZGK2HzkhqUfoMmqaAc-NDvV9WQkzD-P_66yw_no.png
+![Uploading Screenshot 2022-02-11 at 6.56.49 PM.png…]()
+
 

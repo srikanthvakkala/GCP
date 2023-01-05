@@ -1,0 +1,30 @@
+Creating Firewall Rules:
+
+1) Firewall rules are available under the VPC network in the networking section on the left side menu.
+2) The following are the firewall rule options:
+
+Name – Name of the firewall (only in lowercase and no space is allowed)
+
+Description – optional but better to keep description
+
+Network – Select VPC network where you want to apply the firewall rules.
+
+Priority – rule priority applied to the network. Lowest got the highest priority/
+
+Direction of traffic – select the flow type between ingress (incoming) and outgress (outgoing).
+
+Action on match – choose if you want to allow or deny
+
+Targets – the target where you want to apply the rules. You have an option to apply the rules to all the instances in the network, only allow on specific tags or service account.
+
+Source filter – a source which will be validated to either allow or deny. You can filter by IP ranges, subnetworks, source tags, and service accounts.
+
+Source IP ranges – if selected IP range in source filter which is default then provide the range of IP which will be permitted.
+
+Second source filter – multiple source validations are possible.
+
+Ex: you can have the first source filter as source tags and second filter as a service account. Whichever match it will be allowed/denied.
+
+Protocol and ports – you can either select all the ports or specify individual ones (TCP/UDP). You can have multiple unique ports in a single rule.
+
+3) To save the firewall rule, click Create Option.
